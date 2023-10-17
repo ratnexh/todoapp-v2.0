@@ -19,7 +19,7 @@ function TodoForm() {
         <form onSubmit={handleSubmit}>
             <input
                 className='form_input'
-                type="search"
+                type="text"
                 placeholder="Write Todo..."
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
